@@ -1,0 +1,3 @@
+google-generativeai
+streamlit
+# key = fr"AQ.Ab8RN6LwymhCyDeyqXU7NRFskY1rYQBpOub9JSiDjUxcmilehwsantha"
