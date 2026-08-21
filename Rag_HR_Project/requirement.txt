@@ -1,0 +1,12 @@
+pymupdf
+sentence-transformers
+chromadb
+ollama
+streamlit
+
+
+with pdfplumber.open(fr"C:\Users\SanthakumarPonraj\Downloads\FMD 02-10-2026\Koa speer_RK73B1ET series_FMDIPC.pdf") as pdf:
+    tables = []
+    for page in pdf.pages:
+        page_tables = page.extract_tables()
+        tables.extend(page_tables)
